@@ -17,11 +17,11 @@ mongoose.connect(URL, {
 mongoose.connection.once('open', () => {
     console.log("Connected to database...")
 })
+app.use(cors());
 app.use('/graphql', graphqlHTTP({
     schema,
     graphiql: true
 }))
-app.use(cors());
 app.use(express.json())
 
 const port = process.env.PORT || 8000

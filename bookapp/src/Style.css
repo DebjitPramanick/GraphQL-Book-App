@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.booklist{
+    margin: 16px;
+    border: 1px solid #d6d6d6;
+    padding: 10px;
+    height: fit-content;
+}
+
+.addBook{
+    margin: 16px;
+    border: 1px solid #d6d6d6;
+    padding: 10px;
+    height: fit-content;
+}
+
+.addBook input{
+    width: 100%;
+    display: block;
+    outline: 0;
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 6px;
+}
+
+.addBook select{
+    width: 100%;
+    display: block;
+    outline: 0;
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.addBook button{
+    width: 100%;
+    display: block;
+    outline: 0;
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 6px;
+    cursor: pointer;
+}
