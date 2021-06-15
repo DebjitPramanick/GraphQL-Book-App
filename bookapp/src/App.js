@@ -1,6 +1,7 @@
 import React from 'react'
 import BookList from './component/BookList'
 import AddBook from './component/AddBook';
+import AddAuthor from './component/AddAuthor';
 import "./Style.css"
 
 import {
@@ -25,7 +26,7 @@ const App = () => {
                 <BookList />
                 <div className="forms">
                     <AddBook />
-                    <AddBook />
+                    <AddAuthor />
                 </div>
             </div>
         </ApolloProvider>
