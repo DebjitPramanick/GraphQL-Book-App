@@ -25,7 +25,7 @@ const BookList = () => {
                 <ul>
                     {
                         data.books.map(b => (
-                            <div key={b.id}>
+                            <div key={b.id} className="book-item">
                                 <li onClick={() => setCur(b.id)}>{b.name}</li>
                                 {cur === b.id ? <BookDetails id={cur} close={setCur}/> : null}
                             </div>
